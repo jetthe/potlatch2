@@ -16,12 +16,12 @@
 
 		<!-- Top row -->
 
-		<mx:Button icon="@Embed('../../../embedded/delete.svg')"
+		<mx:Button icon="@Embed('../../../embedded/delete_trash.svg')"
 			click='doDelete();' 
 			enabled="{canDo('delete')}" 
 			alpha="{getAlpha('delete')}" 
 			toolTip="{deleteToolTipText()}" 
-			width="28" height="28" textAlign="left" y="4" x="6" paddingLeft="6" paddingRight="0" />
+			width="28" height="28" textAlign="left" y="4" x="6" paddingLeft="8" paddingRight="0" />
 
         <mx:HBox id="reverseButton" width="28" height="28" y="4" x="36" borderStyle="solid" cornerRadius="4"
                   click="reverseClicked();" horizontalAlign="center" verticalAlign="middle" toolTip="Reverse direction (V)">
